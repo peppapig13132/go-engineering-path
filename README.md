@@ -68,7 +68,7 @@ Service discovery tools help services find and communicate with each other. Cons
 - Centralize authentication in the API gateway or have each service handle authentication tokens independently.
     
 ### 🌸Error Handling and Logging
-    Use structured logging to ensure consistency across services. Go’s standard library log package, along with libraries like logrus or zap, can handle structured logs well.
+Use structured logging to ensure consistency across services. Go’s standard library log package, along with libraries like logrus or zap, can handle structured logs well.
 
 ### 🌸Observability (Monitoring and Tracing)
 - Metrics: Use tools like Prometheus for monitoring.
@@ -262,8 +262,10 @@ func main() {
 - Custom load balancing in Go is suitable for lightweight or highly customized setups.
 - Service discovery and orchestration tools are ideal for microservices and dynamic environments.
 
-
 ## 🧩CI/CD
+
 ## 🧩AWS
+
 ## 🧩Linux
+
 ## 🧩Docker
